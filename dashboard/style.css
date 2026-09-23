@@ -1,0 +1,219 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: "Instrument Sans", sans-serif;
+    background-color:#1E0E2B ;
+    height:100vh;
+    width:100vw;
+}
+.container{
+    margin: 0 auto;
+    height:210vh;
+    width:95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+header{
+    width: 100%;
+}
+.navega{
+    padding-top:20px ;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 2px;
+    border-bottom: 2px solid #F31366;
+}
+.navega img{
+    width: 200px;
+    height:100px;
+    padding-bottom: 10px;
+}
+.navlinks{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+}
+.navlinks li{
+    list-style: none;
+}
+.navlinks a{
+    text-decoration: none;
+    color: white;
+    font-size: 1.25em;
+}
+.atual{
+    background-color:#F31366 ;
+    transform: translateY(-10px);
+    height: 50px;
+    padding: 10px;
+    border-radius: 29px;
+}
+.atual:hover{
+    background-color:#cf004c;
+    cursor:pointer
+}
+
+.principal{
+    width: 80%;
+    height: 35%;
+    display: flex;
+    border: 2px solid #8A38F5;
+    background-color: #27183B;
+    border-radius: 17px;
+}
+.imagem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 40%;
+}
+.imagem img{
+    width: 95%;
+    height: 75%;
+}
+.txt{
+    word-break: keep-all;
+    font-size: 1.5em;
+    color: white;
+    gap:20px;
+    padding-top: 140px;
+    height: 100%;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+.azul{
+    color:#09BDCD;
+    transform: translateY(4px);
+}
+.grande{
+    font-size: 4em;
+    font-family: "Crimson Text", serif;
+    font-weight: 700;
+    color:#FF4087;
+    margin-left: 25px;
+}
+.eventos{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: white;
+    margin-top: 15px;
+    height: 72%;
+    width: 75%;
+}
+.eventos.h2{
+    font-family:"Crimson Text", serif; 
+}
+.container-eventos{
+    align-self: center;
+    display: flex;
+    height:100%;
+    width: 80%;
+    gap: 10px;
+
+}
+.esq, .dir{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 50%;
+    height: 95%;
+}
+.card{
+position: relative;
+width: 80%;
+height: 39%;
+background-color:#27183B;
+display: flex;
+flex-direction: column;
+gap: 10px;
+}
+.cantando{
+    height: 90%;
+}
+.info{
+    position: relative;
+    align-self: center;
+    display: flex;
+    width: 80%;
+    height: 37%;
+    gap: 5px;
+}
+.icone{
+    height: 26px;
+    width: 26px;
+}
+.nome_evento{
+    margin-left: 15px;
+}
+.estrela{
+    margin-left: 30px;
+}
+.btn{
+    padding: 15px;
+    align-self: center;
+    width: 220px;
+    background-color: #F31366;
+    border: none;
+    border-radius: 26px;
+    color: white;
+    font-size: 1.25em;
+}
+.nome_evento{
+    margin-top: 20px;
+}
+.paginacao{
+    color: white;
+    gap:20px;
+    display: flex;
+    background-color:#27183B ;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    height: 50px;
+    width: 250px;
+    align-self: flex-start;
+}
+.rodape{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    border-top: 2px solid #F31366 ;
+    padding-top: 3%;
+}
+
+.paginacao div{
+    border-radius: 4px;
+    width: 20%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    margin-right: 30%;
+    transform: translateY(-25%);
+}
+.agora{
+    background-color: #F31366;
+}
+.navlinks{
+    transform: translateY(-45%);
+}
+button:hover{
+    background-color:#cf004c;
+    cursor: pointer;
+}
+a:hover{
+    color: grey;
+}
