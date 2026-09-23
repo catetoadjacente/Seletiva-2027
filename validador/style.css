@@ -1,0 +1,137 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Instrument Sans", sans-serif
+}
+body{
+    background-color: #1E0E2B;
+}
+.container{
+    width: 95vw;
+    height: 100vh;
+    margin: 0 auto;
+}
+.navega{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    height: 160px;
+    width: 100%;
+    border-bottom: 5px solid #F31366;
+    padding-bottom: 20px;
+}
+.navlinks{
+    display: flex;
+    gap: 115px;
+    list-style: none;
+    transform: translateY(45px);
+}
+.navlinks a{
+    font-size: 24px;
+    text-decoration: none;
+    color: white;
+    font-family: "Instrument Sans", sans-serif
+}
+.contain{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+}
+.validar{
+    padding-top: 2%;
+    border-radius: 15px;
+    gap: 60px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 75%;
+    width: 38%;
+    background-image: radial-gradient(#461B47, #1F2B4D);
+}
+.validar h2{
+    font-size: 48px;
+}
+.textos{
+    text-align: center;
+}
+.textos h2{
+    color:#FF4087;
+
+}
+.textos h3{
+    color:#0DAFC4;
+}
+.input-group{
+    color: white;
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 60%;
+}
+.input-group input{
+    background-image: radial-gradient(#1C081C, #0F1528 );
+    color: white;
+    padding: 15px;
+    outline: none;
+    border: 2px solid #F31366;
+    font-size:24px ;
+    border-radius:14px ;
+}
+.input-group input::placeholder{
+    color: #868686;
+    font-size:24px ;
+}
+.wrap-btn{
+    width: 40%;
+    position: relative;
+}
+.btn{
+    width: 100%;
+    color: white;
+    padding: 19px;
+    background-color:#F31366 ;
+    font-size: 24px;
+    border: none;
+    border-radius: 24px;
+    cursor: pointer;
+}
+.icone{
+    position: absolute;
+    left: 20px;
+    top:25px;
+}
+.rodape{
+    border-top: 5px solid #F31366;
+    padding-top: 5px;
+    width: 100%;
+    height:100px;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 2%;
+}
+.links{
+    list-style: none;
+    display: flex;
+    gap: 125px;
+    color: white;
+    align-items: center;
+}
+.rodape ul{
+    display: flex;
+    align-items: center;
+}
+.atual{
+    background-color:#F31366;
+    padding: 10px;
+    border-radius: 20px;
+    transform: translateY(-10px);
+}
+a:hover{
+color: rgb(142, 10, 182);
+}
+.btn:hover{
+    background-color: #d30c55;
+}
