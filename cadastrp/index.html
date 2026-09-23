@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jacques+Francois&family=Jockey+One&display=swap" rel="stylesheet">
+
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <nav class="navega">
+                <img src="assets/Mask group.png" alt="" class="logo">
+                <div class="navlinks">
+                    <ul>
+                        <li><a href="#">Usuario</a></li>
+                        <li><a href="#">Perfil</a></li>
+                        <li><a href="#">Evento</a></li>
+                        <li><a href="#">Dasboard Adm</a></li>
+                        <li><a href="#">Usuario</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+        <div class="cadastro">
+            <h2>Cadastro de eventos</h2>
+            <form action="" class="formulario">
+                <div class="input-group">
+                    <label for="nome">Nome:</label>
+                    <input type="text" required name="nome" id="nome">
+                </div>
+                <div class="input-group">
+                    <label for="data">Data do evento:</label>
+                    <input type="text" name="data" id="data">
+                </div>
+                <div class="input-group">
+                    <label for="hora">Horario:</label>
+                    <input type="text" required id="hora">
+                </div>
+                <div class="input-group">
+                    <label for="capacidade">Capacidade de pessoas:</label>
+                    <input type="number" required id="capacidade">
+                </div>
+                <div class="input-group">
+                    <label for="imagem" id="foto">Imagem:</label>
+                    <input type="file" name="imagens" id="imagem" required>
+                </div>
+                <div class="input-group">
+                    <label for="local">Local do evento:</label>
+                    <input type="text" id="local" required>
+                </div>
+                <div class="input-group">
+                    <label for="preço">Preço</label>
+                    <input type="number" required id="preço" value="1">
+                </div>
+                <button type="submit" class="entrar">Continuar cadastro</button>
+            </form>
+        </div>
+    </div>
+        <footer class="direitos">
+            <h3>© Senac</h3>
+        </footer>  
+</body>
+</html>
